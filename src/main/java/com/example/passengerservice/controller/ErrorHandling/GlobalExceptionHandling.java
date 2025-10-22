@@ -19,5 +19,6 @@ public class GlobalExceptionHandling {
             errorList.add(exceptionDetails);
         }
         return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(errorList);
+
     }
 }
